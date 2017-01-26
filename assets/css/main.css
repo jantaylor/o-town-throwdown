@@ -3644,7 +3644,7 @@
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("images/overlay.png"), url("images/pattern-size1.svg");
+		background-image: url("images/background.jpg"), url("images/pattern-size1.svg");
 		background-position: top left, center center;
 		background-attachment: fixed, fixed;
 		background-size: auto, cover;
@@ -3871,6 +3871,10 @@
 			margin: -3.5em 4em 0 0;
 		}
 
+		#header .content p {
+			color: white;
+		}
+
 			#header .content > :last-child {
 				margin-bottom: 0;
 			}
@@ -4081,7 +4085,7 @@
 	#footer {
 		background-color: #f7f7f7;
 		color: #999999;
-		padding: 4.5em 0 2.5em 0 ;
+		padding: .2em 0 .2em 0 ;
 		color: #b0b0b0;
 		text-align: center;
 	}
@@ -4125,13 +4129,13 @@
 		}
 
 		#footer .copyright {
-			font-size: 0.8em;
+			font-size: 0.6em;
 		}
 
 		@media screen and (max-width: 980px) {
 
 			#footer {
-				padding: 4em 4em 2em 4em ;
+				padding: .2em .4em .2em .4em ;
 			}
 
 		}
@@ -4139,7 +4143,7 @@
 	@media screen and (max-width: 736px) and (orientation: landscape) {
 
 		#footer {
-			padding: 3em 3em 1em 3em ;
+			padding: .3em .3em .1em .3em ;
 		}
 
 	}
@@ -4147,7 +4151,7 @@
 	@media screen and (max-width: 736px) and (orientation: portrait) {
 
 		#footer {
-			padding: 3em 1.5em 1em 1.5em ;
+			padding: .3em .15em .1em .15em ;
 		}
 
 	}
