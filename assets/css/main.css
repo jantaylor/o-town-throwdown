@@ -3873,6 +3873,7 @@
 
 		#header .content p {
 			color: white;
+			font-size: 22px;
 		}
 
 			#header .content > :last-child {
