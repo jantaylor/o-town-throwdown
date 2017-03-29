@@ -1,0 +1,81 @@
+p {
+  line-height: 2rem;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: 'Pathway Gothic One', serif;
+}
+
+h2 {
+  font-family: 'Pathway Gothic One', serif;
+}
+
+ul > li > a {                   
+font-size: 22px;
+}
+
+#logo {
+  max-height: 150px;
+  width: auto;
+}
+
+#index-banner {
+  height: 550px;
+}
+
+.parallax-container {
+  min-height: 450px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+   width: 100%;
+ }
+
+ #home {
+    margin-top: 50px;
+ }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 20%;
+  }
+
+  #index-banner .section {
+    top: 10%;
+  }
+
+  #home {
+    margin-top: 25px;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  #home {
+    margin-top: 75px;
+  }
+}
+
+img.restaurant{
+    width: 200px; /* you can use % */
+    height: auto;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
